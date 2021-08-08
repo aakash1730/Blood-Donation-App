@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:paddingLeft="10dp"
+    android:layout_rowSpan="2"
+    android:paddingRight="10dp"
+    android:layout_row="0"
+    android:layout_column="0" />
+
+<TextView
+    android:id="@+id/NameOfDonor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:text="New Text"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_row="0"
+    android:layout_column="1"
+    android:layout_columnWeight="1"   />
+
+<TextView
+    android:id="@+id/ContactNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_columnWeight="1"
+    android:paddingLeft="10dp"
+    android:layout_row="1"
+    android:layout_column="1"
+    android:textSize="14dp" />
+</GridLayout>

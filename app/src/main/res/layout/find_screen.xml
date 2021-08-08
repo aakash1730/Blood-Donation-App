@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akk">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/jj"
+            android:id="@+id/back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Donation"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_margin="15dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="AB+"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:layout_margin="10dp"
+            android:id="@+id/abplus"
+            />
+
+        <Button
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="AB-"
+            android:id="@+id/abnegative"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:background="#ffffff"
+            android:layout_height="100dp"
+            android:text="A+"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:id="@+id/apositive"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="B+"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:id="@+id/bpositive"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:textColor="#000000"
+            android:layout_height="100dp"
+            android:text="A-"
+            android:background="#ffffff"
+            android:layout_margin="10dp"
+            android:id="@+id/anegative"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:text="B-"
+            android:background="#ffffff"
+            android:id="@+id/bnegative"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:text="O+"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:id="@+id/opositive"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="O-"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:id="@+id/onegative"/>
+    </LinearLayout>
+</LinearLayout>
